@@ -19,7 +19,7 @@ class TransactionController extends Controller
      */
     public function index()
     {
-        $reports = Transaction::all();
+        $reports = Transaction::paginate(10);
         $clientes = Account::all()->pluck('cedula', 'id');
 
         return view('reportes.reportes', compact('reports', 'clientes'));

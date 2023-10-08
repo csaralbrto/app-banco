@@ -13,7 +13,7 @@ class AccountController extends Controller
      */
     public function index()
     {
-        $accounts = Account::all();
+        $accounts = Account::paginate(10);
         $transferir = false;
         $cedula_origen = null;
 
