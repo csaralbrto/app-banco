@@ -7,7 +7,7 @@
 
     @vite('resources/css/app.css')
 
-    <title>{{config('app.name','App Banco')}}</title>
+    <title>{{config('app.name','BANCO APP')}}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -19,7 +19,7 @@
 
 <body class="text-center p-20 md:p-20 lg:p-40">
 
-    <img src="{{ asset('images/bank.png') }}" class="inline" alt="App banco" />
+    <img src="{{ asset('images/bank.png') }}" class="inline" alt="BANCO APP" />
 
     <h1 class="text-5xl font-extrabold md:text-2xl sm:text-2xl lg:text-5xl py-8">
         BANCO APP
