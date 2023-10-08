@@ -16,7 +16,7 @@ Asegúrate de tener instaladas las siguientes versiones mínimas de software en 
 ## Clona este repositorio en tu sistema local:
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/csaralbrto/app-banco.git
 ```
 
 ## Accede al directorio de la aplicación:
@@ -58,7 +58,7 @@ php artisan migrate
 php artisan db:seed
 ```
 
-## PRUEBAS UNITAROAS
+## PRUEBAS UNITARIAS
 ```bash
 php artisan test
 ```
