@@ -22,7 +22,7 @@
     <img src="{{ asset('images/bank.png') }}" class="inline" alt="App banco" />
 
     <h1 class="text-5xl font-extrabold md:text-2xl sm:text-2xl lg:text-5xl py-8">
-        App Banco
+        BANCO APP
     </h1>
     <a href="{{ route('cuentas.index') }}" class="text-lg text-blue-600 hover:underline">Cuentas</a>
 </body>

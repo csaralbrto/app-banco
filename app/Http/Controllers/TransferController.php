@@ -57,7 +57,7 @@ class TransferController extends Controller
             $valor = $request->input('valor');
 
             if ($cuenta_origen->saldo < $valor) {
-                throw new \Exception('La cuenta de origen no posee la cantidad a transferir');
+                throw new \Exception('La cuenta de origen no posee el saldo a transferir');
             }
 
 
@@ -67,7 +67,6 @@ class TransferController extends Controller
                 'valor' => $valor,
             ]);
             if ($transfer) {
-
                 $cuenta_origen->saldo -= $valor;
                 $cuenta_origen->save();
                 $cuenta_destino->saldo += $valor;
