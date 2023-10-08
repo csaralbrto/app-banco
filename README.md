@@ -13,47 +13,47 @@ Asegúrate de tener instaladas las siguientes versiones mínimas de software en 
 
 ## Configuración
 
-# Clona este repositorio en tu sistema local:
+## Clona este repositorio en tu sistema local:
 
 ```bash
-git clone https://github.com/tuusuario/tu-app-laravel.git
+git clone https://github.com/
 ```
 
-# Accede al directorio de la aplicación:
+## Accede al directorio de la aplicación:
 
 ```bash
 cd tu-app-laravel
 ```
 
-# Instala las dependencias de PHP a través de Composer:
+## Instala las dependencias de PHP a través de Composer:
 ```bash
 composer install
 ```
 
-# Instala las dependencias de Node.js:
+## Instala las dependencias de Node.js:
 ```bash
 npm install
 ```
 
-# Copia el archivo .env.example y crea un nuevo archivo .env:
+## Copia el archivo .env.example y crea un nuevo archivo .env:
 ```bash
 cp .env.example .env
 ```
 
-# Genera una clave de aplicación:
+## Genera una clave de aplicación:
 ```bash
 php artisan key:generate
 ```
 
-# Configura la base de datos en el archivo .env. Asegúrate de que los valores de DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME y DB_PASSWORD sean los correctos para tu entorno.
+## Configura la base de datos en el archivo .env. Asegúrate de que los valores de DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME y DB_PASSWORD sean los correctos para tu entorno.
 
 
-# Ejecuta las migraciones para crear las tablas de la base de datos:
+## Ejecuta las migraciones para crear las tablas de la base de datos:
 ```bash
 php artisan migrate
 ```
 
-# Ejecuta los seeders para cargar datos de prueba en la base de datos:
+## Ejecuta los seeders para cargar datos de prueba en la base de datos:
 ```bash
 php artisan db:seed
 ```
@@ -63,15 +63,15 @@ php artisan db:seed
 php artisan test
 ```
 
-## COMPILACIÓN TAILWIND CSS
+# COMPILACIÓN TAILWIND CSS
 
-# Compila los estilos para desarrollo:
+## Compila los estilos para desarrollo:
 
 ```bash
 npm run dev
 ```
 
-# Compila los estilos para producción (minificar y eliminar comentarios):
+## Compila los estilos para producción (minificar y eliminar comentarios):
 
 ```bash
 npm run prod
