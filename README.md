@@ -74,7 +74,7 @@ npm run dev
 ## Compila los estilos para producción (minificar y eliminar comentarios):
 
 ```bash
-npm run prod
+npm run build
 ```
 
 ## EJECUCIÓN DEL PROYECTO
