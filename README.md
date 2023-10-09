@@ -55,7 +55,10 @@ php artisan migrate
 
 ## Ejecuta los seeders para cargar datos de prueba en la base de datos:
 ```bash
-php artisan db:seed
+php artisan db:seed --class=AccountSeeder
+```
+```bash
+php artisan db:seed --class=ProfileSeeder
 ```
 
 ## PRUEBAS UNITARIAS

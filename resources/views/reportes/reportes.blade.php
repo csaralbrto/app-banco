@@ -89,7 +89,7 @@
             </tbody>
         </table>
         <div class="my-4">
-            {{ $reports->links() }}
+            <!-- {{ $reports->links() }} -->
         </div>
         @endif
     </div>

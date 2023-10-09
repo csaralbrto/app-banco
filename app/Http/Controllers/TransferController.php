@@ -31,7 +31,7 @@ class TransferController extends Controller
      */
     public function createTransferencias(String $cedula)
     {
-        $accounts = Account::all();
+        $accounts = Account::paginate(10);
         $transferir = true;
         $cuenta_origen = Account::where('cedula', $cedula)->first();
         $cuentas_destino = Account::where('cedula', '!=', $cedula)->pluck('cedula', 'id');
