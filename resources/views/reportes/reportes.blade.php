@@ -88,9 +88,6 @@
                 @endforeach
             </tbody>
         </table>
-        <div class="my-4">
-            <!-- {{ $reports->links() }} -->
-        </div>
         @endif
     </div>
 </div>
